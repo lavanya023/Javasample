@@ -18,3 +18,5 @@ public class Screenshot {
 TakesScreenshot ts=((TakesScreenshot)driver);
 File src=ts.getScreenshotAs(OutputType.FILE);
 FileHandler.copy(src,new File("C:/Users/Administrator/Desktop/screens/"+name+".png"));
+	}
+}
